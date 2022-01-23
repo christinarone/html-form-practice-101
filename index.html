@@ -24,65 +24,45 @@
       <input type="date" name="date" id="date" min="2019-06-10">
     </div>
     <div>
-      Favorite Food
+      How Did You Hear About Us?
       <div>
-        <label for="banana">Banana</label>
-        <input type="checkbox" name="banana" id="banana">
+        <label for="classmate">Classmate</label>
+        <input type="checkbox" name="classmate" id="classmate">
       </div>
       <div>
-        <label for="apple">Apple</label>
-        <input type="checkbox" name="apple" id="apple">
-      </div>
-    </div>
-    <div>
-      Gender
-      <div>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male" value="male">
+        <label for="Resume Submission">Resume Submission</label>
+        <input type="checkbox" name="ResumeSubmission" id="ResumeSubmission">
       </div>
       <div>
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female" value="female">
-      </div>
-      <div>
-        <label for="other">Other</label>
-        <input type="radio" name="gender" id="other" value="other">
+        <label for="LinkedIn">LinkedIn</label>
+        <input type="checkbox" name="LinkedIn" id="LinkedIn">
+        <div>
+          <label for="Coding Academy Rec">Coding Academy Rec</label>
+          <input type="checkbox" name="CodingAcademyRec" id="CodingAcademyRec">
+        </div>
       </div>
     </div>
+    <form>
+      Would you like for us to contact you?
+      <div>
+        <label for="Yes">Yes</label>
+        <input type="radio" name="Yes" id="Yes" value="Yes">
+      </div>
+      <div>
+        <label for="No">No</label>
+        <input type="radio" name="No" id="no" value="no">
+      </div>
+    </form>
     <div>
-      <label for="eyeColor">Eye Color</label>
-      <select name="eyeColor" id="eyeColor" multiple>
-        <option value="Green">Green</option>
-        <option label="Red" value="Red"></option>
-      </select>
-    </div>
-    <div>
-      <label for="bio">Bio</label>
-      <textarea id="bio" name="bio"></textarea>
+      <label for="Comments">Comments</label>
+      <textarea id="Comments" name="comments" maxlength="500" minlength="20"></textarea>
     </div>
     <input type="hidden" name="hidden" value="hi">
     <div>
-      <label for="file">File</label>
-      <input id="file" type="file" name="file">
-    </div>
     <div>
       <label for="phone">Phone</label>
       <input type="tel" name="phone" id="phone">
-    </div>
-    <div>
-      <label for="url">URL</label>
-      <input type="url" name="url" id="url">
-    </div>
-    <div>
-      <label for="color">Color</label>
-      <input type="color" name="color" id="color">
-    </div>
-    <div>
-      <label>
-        Password
-        <input type="password" name="password" >
-      </label>
-    </div>
+  
     <button type="reset">Reset</button>
     <button type="submit">Submit</button>
   </form>
